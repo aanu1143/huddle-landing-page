@@ -255,30 +255,40 @@ p {
     padding-right: 56px;
     font-size: 12px;
 }
+.temp {
+    position: relative;
+    top: 60px;
+    height: 150px;
+}
+
+.temp a {
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 700px) {
     .bottomfoot {
-        height: 650px;
+        height: 625px;
     }
     .details {
         flex-direction: column;
-        top: 100px;
+        top: 75px;
         margin-left: 25px;
     }
-    .details div a{
-        margin-bottom: 10px;
+    .temp {
+        top: -15px;
+        height: 90px;
     }
     #address {
         margin-bottom: 40px;
     }
     .copyr {
-        top: 100px;
+        top: 10px;
     }
     .icons img {
         width: 30px;
     }
     .icons {
-        margin-left: 37%;
+        margin-left: 32%;
     }
     .footcontainer {
         max-width: 350px;
